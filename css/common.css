@@ -1,0 +1,68 @@
+body
+{
+    background: #E0EEEE;
+    font-size: 10px;
+    font-family: Lucida Bright;
+}
+
+#wrapper
+{
+    margin: 10px auto;
+    width: 800px;
+    border: 1px solid #ededed;
+    outline: 1px solid #ccc;
+    background: #fff;
+    padding: 5px;
+}
+
+.button
+{
+    display: inline-block;
+    height: 17px;
+}
+
+
+
+.box_left, .box_right, .box_middle
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.box_middle
+{
+    width:190px;
+    margin-right:10px;
+}
+
+.box_left
+{
+    width: 500px;
+}
+.box_right
+{
+    width: 280px;
+    margin-left:10px;
+}
+
+#gmap, #rota_gmap
+{
+    margin: 5px auto;
+    border: 1px solid #ededed;
+    outline: 1px solid #ccc;
+    height: 400px;
+}
+
+#rota_gmap
+{
+    width: 280px;
+    overflow: auto;
+}
+
+label
+{
+    display:block;
+    font-size:12px;
+    margin:5px 0 1px 0;
+    border-bottom: 1px dashed #ededed;
+}
+
